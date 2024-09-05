@@ -1,0 +1,105 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: hsl(30, 54%, 90%);
+  margin: 20px;
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card .content {
+  color: #333;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: hsl(30, 10%, 34%);
+}
+
+.card .info {
+  background-color:hsl(330, 100%, 98%);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 20px;
+  color: hsl(24, 5%, 18%);
+  margin-top: 20px;
+}
+
+.card ul, .card ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.card ul li, .card ol li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.card ol {
+  counter-reset: step;
+}
+
+.card ol li {
+  counter-increment: step;
+  margin-bottom: 10px;
+}
+
+.card hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.card .nutrition {
+  margin-top: 20px;
+}
+
+.card table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.card table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  color:hsl(14, 45%, 36%);
+}
+span{
+  color:hsl(30, 10%, 34%);
+}
+
+ol li span{
+  color:hsl(14, 45%, 36%);
+}
